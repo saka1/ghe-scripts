@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chronic (0.10.2)
+    dotenv (2.5.0)
+    faraday (0.15.3)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  chronic
+  dotenv
+  faraday
+
+BUNDLED WITH
+   1.16.2
