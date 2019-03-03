@@ -14,7 +14,7 @@ Misc scripts for operations of GitHub Enterprise.
 $ bundle install
 ```
 
-Create your `.env` file.
+Then, create your `.env` file.
 
 ```
 cp .env.sample .env
@@ -32,7 +32,7 @@ Check if [chronic](https://github.com/mojombo/chronic) can parse the argument.
 $ bundle exec ./test_chronic.rb 'today 14:50'
 ```
 
-Enable the scheduled maintainance.
+Enable a scheduled maintainance.
 
 ```
 $ bundle exec ./schedule_maintainance.rb 'today 14:50'
